@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^pdfinfo '/home/codespace/\\.vscode-remote/data/agentSessionData/14100de2-27cd-4ef1-9eee-e51b57dec6fd/attachments/49d4b374-c361-4e12-bd8e-cf0c644d9e4c/Name of file\\.PDF\\.pdf' \\| head -25; pdftotext -layout '/home/codespace/\\.vscode-remote/data/agentSessionData/14100de2-27cd-4ef1-9eee-e51b57dec6fd/attachments/49d4b374-c361-4e12-bd8e-cf0c644d9e4c/Name of file\\.PDF\\.pdf' - \\| head -280$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
