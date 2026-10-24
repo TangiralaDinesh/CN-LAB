@@ -1,8 +1,6 @@
 # Experiment index
 
-This folder follows the numbering in the two notebook photographs, not the
-numbering in the PDF manual. PDF page numbers below refer to the printed page
-numbers in the manual.
+
 
 | Notebook | Experiment | Manual section |
 |---:|---|---|
@@ -24,12 +22,7 @@ numbers in the manual.
 | 16 | Simple LAN in Cisco Packet Tracer | pp. 106–109 |
 | 17 | Topologies with the Benchmark LAN Trainer Kit | pp. 110–114 |
 
-The notebook lists the local DNS-server exercise at both 3 and 11. Both entries
-use `11_dns_server_info.py`; the manual's DNS-server section (pp. 80–84) prints
-the local machine hostname/address rather than the configured resolver, so the
-script reports configured resolver IPs and reverse-resolved names instead.
-The manual's separate local-machine hostname exercise (pp. 14–17) is not a
-separate entry in the notebook index.
+
 
 ## Run the Python examples
 
@@ -65,6 +58,3 @@ Each script writes a trace and NAM file in the current directory. NS2 builds
 differ, and `rtproto LS` may not be available in every package; the link-state
 example uses the protocol command shown in the supplied manual.
 
-Experiments 1 and 13–17 are operational lab exercises rather than standalone
-programs. Their files give safe, repeatable steps; capture or inspect only
-traffic and networks you own or are authorized to use.
